@@ -84,3 +84,7 @@ body {
     width: 940px;
 }
 
+#cabeçalho {
+    color: white;
+    text-align: center;
+}
