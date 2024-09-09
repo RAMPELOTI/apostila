@@ -7,7 +7,10 @@
     font-size: 14px;
     text-align: right; 
     padding: 35px;
-}
+    position: absolute;
+    top: 0;
+    right: 0;
+}\
 .menu-opcoes ul li {
 display: inline;
 margin-left: 20px;
@@ -24,4 +27,12 @@ margin-left: 20px;
 }
 ul li {
     display:inline;
+}
+header {
+    position: absolute;
+}
+.menu-opcoes {
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
