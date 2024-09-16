@@ -10,7 +10,7 @@
     position: absolute;
     top: 0;
     right: 0;
-}\
+}
 .menu-opcoes ul li {
 display: inline;
 margin-left: 20px;
@@ -36,3 +36,21 @@ header {
     bottom: 0;
     right: 0;
 }
+.busca,
+.menu-departamentos {
+    float: left;
+}
+.busca
+.menu-departamentos {
+    float: left;
+}
+.menu-departamentos {
+    clear: left;
+}
+.menu-departamentos {
+    text-transform: uppercase;
+}
+.item-menu {
+    text-decoration: none;
+}
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
