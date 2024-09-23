@@ -53,4 +53,16 @@ header {
 .item-menu {
     text-decoration: none;
 }
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+     .menu-departamentos {
+        text-transform: uppercase;
+}
+div {
+    border: 2px solid;
+    border-color: red;
+    width: 30px;
+    height: 30px;
+}img {
+    width: 30px;
+    height: 30px;
+}                
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
