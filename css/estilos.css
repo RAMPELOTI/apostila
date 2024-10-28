@@ -86,4 +86,24 @@ img {
   .busca input[type=search] {
     width: 170px;
   }              
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+    .busca,
+    .menu-departamentos {
+float: left;
+    }   
+    .menu-departamentos {
+        clear: left;
+    }       
+    .destaque {
+        margin-top: 10px;
+    }     
+    .menu-departamentos {
+        margin-top: 10px;
+        padding-bottom: 10px;
+    }                       
+.painel li {
+    display: inline-block;
+    vertical-align: top;
+    width: 140px;
+    margin: 2px;
+    padding-bottom: 10px;
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
