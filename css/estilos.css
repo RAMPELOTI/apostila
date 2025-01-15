@@ -163,6 +163,20 @@ float: left;
   .mais-vendidos {
     background-color: #DCDCF5;
   }
+  .focebook {
+/* tamanho do elemento = imagem */
+height:  55px;
+width: 85px;
+
+/* imagem com fundo */
+background-image: url(../img/facebook.png);
+
+/* retirando o texto da frente */
+text-indent: -9999px;
+  }
+  .social a [href*="facebook.com"] {
+    background-image: url(../img/facebook.png);
+  }
 
 
     
