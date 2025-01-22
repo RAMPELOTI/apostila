@@ -54,7 +54,7 @@ header {
         text-transform: uppercase;
 }
 
-img {
+.banner-destaque img {
     width: inherit;
     height: inherit;
 }                
@@ -141,7 +141,7 @@ float: left;
   .painel {
     display: inline-block;
     vertical-align: top;
-    width: 140px;
+    width: 445px;
     margin: 2px;
     padding-bottom: 10px;
   }                 
@@ -163,21 +163,30 @@ float: left;
   .mais-vendidos {
     background-color: #DCDCF5;
   }
-  .focebook {
-/* tamanho do elemento = imagem */
-height:  55px;
-width: 85px;
+ 
+  footer {
+    background-image: url(../img/fundo-rodape.png);
+  }
 
-/* imagem com fundo */
+  .social a {
+    /* tamanho da imagem */
+    height: 32px;
+    width: 32px;
+    /* image replacement */
+    display: block;
+    text-indent: -9999px;
+  }
+.social a[href*="facebook.com"] {
 background-image: url(../img/facebook.png);
-
-/* retirando o texto da frente */
-text-indent: -9999px;
-  }
-  .social a [href*="facebook.com"] {
-    background-image: url(../img/facebook.png);
-  }
-
-
+}
+.social a[href*="twitter.com"] {
+  background-image: url(../img/twitter.png);
+}
+.social a[href*="google.com"] {
+  background-image: url(../img/googleplus.png);
+}
+footer {
+  clear: both;
+}
     
                                                                                                                                                                                                                                                                                                                                                                                            
