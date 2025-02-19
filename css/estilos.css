@@ -240,3 +240,31 @@ footer .container {
 .social a[href*="google.com"] {
   background-image: url(../img/googleplus.png);
 }
+footer {
+  clear: both;
+}
+footer.container {
+  position: relative;
+}
+.social {
+  position: absolute;
+  top: 12px;
+  right: 0;
+}
+.social li {
+  float: left;
+  margin-left: 25px;
+}
+.busca button {
+  /* adicionando imagem */
+  background-image: url(../img/busca.png);
+  background-repeat: no-repeat;
+  border: none;
+
+  /* tamanho da imagem */
+  width: 20px;
+  height: 20px;
+
+  /* imagem replacement */
+  text-align: -9999px;
+}
