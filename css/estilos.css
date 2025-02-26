@@ -268,3 +268,15 @@ footer.container {
   /* imagem replacement */
   text-align: -9999px;
 }
+.menu-opcoes a:hover {
+  color: #867DC6;
+}
+.menu-opcoes a:active {
+  color: #867DC6;
+}
+.menu-departamentos li ul {
+  display: none;
+} 
+.menu-departamentos li:hover ul {
+  display: block;
+}
