@@ -280,3 +280,9 @@ footer.container {
 .menu-departamentos li:hover ul {
   display: block;
 }
+.menu-departamentos li ul li {
+  background-color: #dcdcdc;
+}
+.menu-departamentos li li a:before {
+content: '- ';
+}
