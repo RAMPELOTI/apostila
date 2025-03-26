@@ -296,3 +296,15 @@ content: '- ';
 .painel h2 {
   text-shadow: 3px 3px 2px rgba(255, 255, 255, 0,8);
 }
+.header {
+  /* mover o elemento no eixo horizontal */
+  transform: translateX(50px);
+}
+#main {
+  /* mover o elemento no eixo vertical */
+  transform: translateY(-20px);
+}
+footer {
+  /* mover os elementos nos dois eixos (X, Y) */
+  
+}
