@@ -306,5 +306,53 @@ content: '- ';
 }
 footer {
   /* mover os elementos nos dois eixos (X, Y) */
-  
+  transform: translate(40px, -20px);
+}
+.menu-departamentos {
+  transform: rotate(-10deg);
+}
+#novidade {
+  /* alterar a escala total do elemento */
+  transform: scale(1.2);
+}
+#mais-vendidos {
+  /* alterar a escala e horinzontal e vertical */
+  transform: scale(1, 0.6);
+}
+footer {
+  /* distocer o elemento no eixo horizontal */
+  transform: skewY(10deg);
+}
+html {
+  transform: rotate(-30deg) scale(0.4);
+}
+.painel li:hover {
+  box-shadow: 0 0 5px #333;
+  transition: box-shadow 0.7;
+}
+.painel li:houver {
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 0 5px #333;
+  transition: 0.7s;
+  transform: scale(1.2) rotate(-5deg);
+}
+@media (max-width: 320px) {
+  /*adicionar aqui os novos estilos para mobile */
+  .container {
+    width: 96%;
+  }
+  .
+  header h1 {
+text-align: center;
+  }
+  header h1 img {
+    max-width: 50%;
+  }
+  .sacola {
+    display: none;
+  }
+  .menu-opcoes {
+    position: static;
+    text-align: center;  
+  }
 }
