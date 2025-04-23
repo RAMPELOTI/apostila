@@ -334,7 +334,7 @@ html {
   box-shadow: 0 0 5px #333;
   transition: 0.7s;
   transform: scale(1.2) rotate(-5deg);
-}
+
 @media (max-width: 320px) {
   /*adicionar aqui os novos estilos para mobile */
   .container {
