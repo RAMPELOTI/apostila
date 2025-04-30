@@ -372,4 +372,6 @@ text-align: center;
   .painel img {
     width: 100%;
   }
+  @media (max-width: 930px)
+  /* estilos para mobile */
 }
