@@ -335,7 +335,7 @@ html {
   transition: 0.7s;
   transform: scale(1.2) rotate(-5deg);
 
-@media (max-width: 320px) {
+@media (max-width: 390px) {
   /*adicionar aqui os novos estilos para mobile */
   .container {
     width: 96%;
